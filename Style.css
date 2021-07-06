@@ -24,6 +24,14 @@ body {
     align-items: center;
     width: 500px;
 }
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.fa-clipboard-list{
+    font-size: 40px;
+}
 h1{
     font-size: 40px;
     margin: 20px;
