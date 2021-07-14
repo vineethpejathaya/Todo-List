@@ -29,17 +29,26 @@
             </div>
             
             <div class="add-contaniner">
-                <input type="text" id="text" class="text" placeholder="Enter the list value"/>
-                <button class="add-btn">ADD</button>
+                <form id="form">
+                    <input type="text" id="text" class="text" placeholder="Enter the list value" reset/>
+                    <button class="add-btn" type="button">ADD</button>
+                    <br>
+                    <small class="small">It's a required field</small>
+                </form>
             </div>
 
         </div>
 
-        <div class="body">
+        
+              <ul class="list" id="list">
+   
+              </ul>  
+       
 
-        </div>
-
+        <button class="remove" onclick="removeAll()">Remove All</button>
     </div>
+  
+<script src="Script.js"></script>
 
 </body>
 

@@ -8,13 +8,22 @@
 body {    
     font-family: 'Poppins', sans-serif; 
     background-color:rgb(22, 194, 224) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
 } 
 .main{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    
+    width: 350px;
+    flex-direction: column;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px auto;
 }
 
 .header{
@@ -22,7 +31,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 350px;
 }
 .heading{
     display: flex;
@@ -39,7 +48,7 @@ h1{
 }
 .text{
     padding: 10px;
-    width: 300px;
+    width: 250px;
     border-radius: 5px;
     font-size: 15px;
     outline: none;
@@ -51,4 +60,66 @@ h1{
     color: white;
     font-size:15px ;
     font-weight: 700;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    list-style: none;
+    margin: 10px;
+}
+.list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+    padding:10px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 15px;   
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),
+     0 1px 2px rgba(0,0,0,0.24);
+    border-left: 5px solid green;
+    width: 250px;    
+   
+}
+small{
+    padding:10px;
+    color: red;
+    font-weight: 800;
+}
+.small{
+    visibility: hidden;
+}
+.smart{
+    
+    visibility: visible;
+}
+.done{
+    background-color: green;
+    margin-left: 10px;
+}
+.delete{
+    background-color: red;
+    margin-left: 10px;
+}
+.strike{
+    text-decoration: line-through;
+    font-size: larger;
+}
+.remove{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: rgb(233, 80, 80);
+    color: white;
+    font-size: 15px;
+    outline: none;
+    font-weight: 700;
+    margin: 25px;
 }
