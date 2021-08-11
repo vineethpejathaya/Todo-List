@@ -64,7 +64,6 @@ e.preventDefault();
     }
     else
     {
-
              document.querySelector('small').className = "smart";
     }
 });
